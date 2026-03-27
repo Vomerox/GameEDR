@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-    android:antialias="true"
-    android:gravity="center"
-    android:src="@drawable/logo_gameedr_android_icon" />
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="22%"
+    android:insetTop="18%"
+    android:insetRight="22%"
+    android:insetBottom="22%">
+    <bitmap
+        android:antialias="true"
+        android:gravity="center|fill"
+        android:src="@drawable/logo_gameedr_android_icon" />
+</inset>
